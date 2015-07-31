@@ -49,7 +49,7 @@ public class QuestionServiceImpl implements QuestionService {
 			saveQuestion(new Question(3, "Как называется река в нашем городе?"));
 			saveQuestion(new Question(4, "В какой стране находится наш город?"));
 			saveQuestion(new Question(5, "В какой части света расположена наша страна?"));
-			saveQuestion(new Question(6, "Как называется наша планет?"));
+			saveQuestion(new Question(6, "Как называется наша планета?"));
 			saveQuestion(new Question(7, "Как называется столица нашего государства?"));
 		}
 	}

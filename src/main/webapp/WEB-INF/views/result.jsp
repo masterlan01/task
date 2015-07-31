@@ -15,7 +15,7 @@
         	<tr><td>Предложенных Вам вопросов  </td><td>${allQuestion}   </td></tr>
         	<tr><td>Количество полученных  ответов </td><td>${acceptAnswer}  </td></tr>
         	<tr><td>Из них правильных </td><td>${goodAnswer}</td></tr>
-        	<tr><td>Количество допущеных  ошибок </td><td>${badAnswer} </td></tr>
+        	<tr><td>Количество допущенных  ошибок </td><td>${badAnswer} </td></tr>
         	<tr><td>Количество вопросв, оставшихся без ответа</td><td>${skipAnswer}  </td></tr>
 
         </table>

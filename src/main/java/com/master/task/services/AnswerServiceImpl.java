@@ -56,7 +56,7 @@ public class AnswerServiceImpl implements AnswerService {
 
 			// Как называется река в нашем городе?
 
-			saveAnswer(new Answer(3, "Олшанка", false));
+			saveAnswer(new Answer(3, "Ольшанка", false));
 			saveAnswer(new Answer(3, "Рось", false));
 			saveAnswer(new Answer(3, "Днепр", true));
 			saveAnswer(new Answer(3, "Днестр", false));
@@ -84,13 +84,13 @@ public class AnswerServiceImpl implements AnswerService {
 
 			saveAnswer(new Answer(5, "Азия", false));
 			saveAnswer(new Answer(5, "Африка", false));
-			saveAnswer(new Answer(5, "Южная Амкрика", false));
+			saveAnswer(new Answer(5, "Южная Америка", false));
 			saveAnswer(new Answer(5, "Европа", true));
 			saveAnswer(new Answer(5, "Северная Америка", false));
-			saveAnswer(new Answer(5, "Антактида", false));
+			saveAnswer(new Answer(5, "Антарктида", false));
 			saveAnswer(new Answer(5, "Австралия", false));
 
-			// Как называется наша планет?
+			// Как называется наша планета?
 
 			saveAnswer(new Answer(6, "Юпитер", false));
 			saveAnswer(new Answer(6, "Венера", false));
