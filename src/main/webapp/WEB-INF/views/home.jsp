@@ -3,7 +3,7 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 <html>
 <head>
-	<title>Простейшая система тестирования  (task)</title>
+	<title>Простейшая система тестирования(task)</title>
 </head>
 <body>
 <h1>
