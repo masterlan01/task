@@ -18,7 +18,7 @@ import javax.validation.constraints.Size;
  */
 
 @Entity
-@Table(name = "answers", catalog = "task")
+@Table(name = "answers")
 public class Answer implements Serializable {
 
 	private static final long serialVersionUID = -5470090944414208496L;

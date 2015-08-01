@@ -49,7 +49,7 @@ public class HomeController {
 	private Environment environment;
 
 	/**
-	 * Стартовая страница системы..
+	 * Стартовая страница задачи.
 	 */
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
@@ -136,8 +136,7 @@ public class HomeController {
 		model.addAttribute("goodAnswer", request.getSession().getAttribute("good"));
 		model.addAttribute("badAnswer", request.getSession().getAttribute("bad"));
 		model.addAttribute("skipAnswer", request.getSession().getAttribute("skip"));
-		model.addAttribute("acceptAnswer",
-				(Integer) request.getSession().getAttribute("currentQuestion") - (Integer) request.getSession().getAttribute("skip"));
+		model.addAttribute("acceptAnswer", qntQuestion - (Integer) request.getSession().getAttribute("skip"));
 		return "result";
 	}
 
@@ -150,7 +149,7 @@ public class HomeController {
 	private int getSomeQuestionID() {
 		int someId = questionList.get(0);
 		questionList.remove(0);
-		logger.info("осталось вопросов {}", questionList);
+		logger.info("Осталось вопросов {}", questionList);
 		return someId;
 
 	}
